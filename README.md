@@ -12,7 +12,7 @@
 
 1. Install [Node.js](https://nodejs.org/)
 2. Install [Git](https://git-scm.com/downloads)
-3. Execute this command:
+3. Execute this command and follow the instructions by the prompt:
 ```bash
 npm i -g pnpm && git clone https://github.com/Vendicated/Vencord && cd Vencord && npm i -g pnpm && pnpm i && cd src && mkdir userplugins && cd userplugins && git clone https://github.com/wakatime/vencord-wakatime && cd ../.. && pnpm build && pnpm inject
 ```
