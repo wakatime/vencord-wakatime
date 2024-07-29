@@ -6,19 +6,25 @@
 
 </div>
 
-<!--These can be installed by following the guide [here](https://github.com/Vendicated/Vencord/blob/main/docs/1_INSTALLING.md) -->
-
 ### Install
 
 1. Install [Node.js](https://nodejs.org/)
 2. Install [Git](https://git-scm.com/downloads)
-3. Execute this command and follow the instructions by the prompt:
-```bash
-npm i -g pnpm && git clone https://github.com/Vendicated/Vencord && cd Vencord && npm i -g pnpm && pnpm i && cd src && mkdir userplugins && cd userplugins && git clone https://github.com/wakatime/vencord-wakatime && cd ../.. && pnpm build && pnpm inject
-```
+3. Execute this command and :
+4. Open the Terminal (On windows)
+5. Install [pnpm](https://pnpm.io/) using npm: `npm i -g pnpm`
+6. Clone the Offical Vencord Repository: `git clone https://github.com/Vendicated/Vencord`
+7. Install all required moduls: `cd Vencord && pnpm i`
+8. Create the <b>userplugins</b> directory: `cd src && mkdir userplugins`
+9. Clone the Offical WakaTime Repository: `cd userplugins && git clone https://github.com/wakatime/vencord-wakatime`
+10. Build and execute the Vencord Repository: `cd ../.. && pnpm build && pnpm inject`
 
-4. Add your [API Key](https://wakatime.com/api-key) to the plugin settings menu, then use Discord like you normally do and your stats will display on the [WakaTime Dashboard](https://wakatime.com).
+    > Follow the instructions by the prompt
+11. Add your [API Key](https://wakatime.com/api-key) to the plugin settings menu, then use Discord like you normally do and your stats will display on the [WakaTime Dashboard](https://wakatime.com).
 
+<!--These can be installed by following the guide [here](https://github.com/Vendicated/Vencord/blob/main/docs/1_INSTALLING.md) -->
+<!--
 > [!TIP]
 > There's also [this video by Syncxv](https://youtu.be/8wexjSo8fNw) which shows how to install a userplugin on Windows.
 > Just be sure to replace the `git clone` command with the one from below
+-->
