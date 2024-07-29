@@ -6,6 +6,10 @@
 
 </div>
 
+> [!TIP]
+> There's also [this video by Syncxv](https://youtu.be/8wexjSo8fNw) which shows how to install a userplugin on Windows.
+> Just be sure to replace the `git clone` command with the one from below
+
 ### Install
 
 1. Install [Node.js](https://nodejs.org/)
